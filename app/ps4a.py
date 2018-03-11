@@ -320,7 +320,7 @@ def playGame(wordList):
     2) When done playing the hand, repeat from step 1    
     """
     hand = None
-    validChoices = {'n', 'r', 'e'}
+    validChoices = ['n', 'r', 'e']
     while True:
         userChoice = input("Enter n to deal a new hand, r to replay the last hand, or e to end game: ")
         if userChoice not in validChoices:
